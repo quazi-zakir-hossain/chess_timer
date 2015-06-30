@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>[Chess Timer]</title>
+<style>
+    body { background-color: black; color: #ccc; }
+    .chess-clock { font-size: 140px; width: 100%; height: 500px; }
+    .chess-clock td { text-align: center; width: 50%; }
+</style>
+
+<script src="custom-chess.js"></script>
+
+</head>
+<body>
+<table class="chess-clock">
+	<tr><td colspan="2" alignment="center"><input type="button" id="btnreset" onclick="resetClockValue();" value=" Reset" /></td></tr>
+	<tr>
+		<td id="time0">4:00</td>
+		<td id="time1">4:00</td>
+	</tr>
+	<tr>
+		<td><input type="button" id="player-1" onclick="playerWhiteTurn();" value=" Player White" /></td>
+		<td><input type="button" id="player-2" onclick="playerBlackTurn();" value=" Player Black" /></td>
+	</tr>
+</table>
+
+</body>
+</html>

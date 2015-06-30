@@ -49,9 +49,9 @@
         timeInHand[0]=initTime
         timeInHand[1]=initTime
         if(playTurner == 0){
-          alert("Hurra! Player, Black is win the game.")
+          alert("Hurrah! Player, Black won the game.")
         }else{
-          alert("Hurra! Player, White is win the game.")
+          alert("Hurrah! Player, White won the game.")
         }
         clearTimeout(intervalVal);
         intervalVal = false;

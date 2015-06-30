@@ -1,4 +1,4 @@
-Readme: 
+Chess Timer
 
 #Intorducation:
 
